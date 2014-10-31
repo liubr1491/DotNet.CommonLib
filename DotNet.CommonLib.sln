@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0486B113-04C4-44F0-B327-113443DAE640}"
+	ProjectSection(SolutionItems) = preProject
+		DotNet.CommonLib.vsmdi = DotNet.CommonLib.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.CommonLib", "DotNet.CommonLib\DotNet.CommonLib.csproj", "{296F12D6-F383-4467-BFBA-F12284E7B995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.CommonLib.UnitTest", "DotNet.CommonLib.UnitTest\DotNet.CommonLib.UnitTest.csproj", "{998AE9B3-2F78-4712-BFC1-F3518C722D95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.CommonDll", "DotNet.CommonDll\DotNet.CommonDll.csproj", "{638A6E8B-DC6E-4886-AC7B-84B09D57619B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.DesignPatterns", "DotNet.DesignPatterns\DotNet.DesignPatterns.csproj", "{193A3CB7-5E35-4F9A-9205-EE386E115897}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{296F12D6-F383-4467-BFBA-F12284E7B995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{296F12D6-F383-4467-BFBA-F12284E7B995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{296F12D6-F383-4467-BFBA-F12284E7B995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{296F12D6-F383-4467-BFBA-F12284E7B995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{998AE9B3-2F78-4712-BFC1-F3518C722D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{998AE9B3-2F78-4712-BFC1-F3518C722D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{998AE9B3-2F78-4712-BFC1-F3518C722D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{998AE9B3-2F78-4712-BFC1-F3518C722D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{638A6E8B-DC6E-4886-AC7B-84B09D57619B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{638A6E8B-DC6E-4886-AC7B-84B09D57619B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{638A6E8B-DC6E-4886-AC7B-84B09D57619B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{638A6E8B-DC6E-4886-AC7B-84B09D57619B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{193A3CB7-5E35-4F9A-9205-EE386E115897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{193A3CB7-5E35-4F9A-9205-EE386E115897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{193A3CB7-5E35-4F9A-9205-EE386E115897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{193A3CB7-5E35-4F9A-9205-EE386E115897}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = DotNet.CommonLib.vsmdi
+	EndGlobalSection
+EndGlobal
