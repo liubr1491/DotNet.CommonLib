@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DotNet.CommonLib.Win32
 {
-   public  class Win32Utility
+    public class Win32Utility
     {
         public static decimal ConvertBytes(string b, int iteration)
         {
