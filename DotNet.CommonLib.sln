@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.CommonDll", "DotNet.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.DesignPatterns", "DotNet.DesignPatterns\DotNet.DesignPatterns.csproj", "{193A3CB7-5E35-4F9A-9205-EE386E115897}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.CommonLib.Console", "DotNet.CommonLib.Console\DotNet.CommonLib.Console.csproj", "{DF7C8412-FB39-47B7-AED6-C8EC6131A9B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{193A3CB7-5E35-4F9A-9205-EE386E115897}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{193A3CB7-5E35-4F9A-9205-EE386E115897}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{193A3CB7-5E35-4F9A-9205-EE386E115897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF7C8412-FB39-47B7-AED6-C8EC6131A9B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF7C8412-FB39-47B7-AED6-C8EC6131A9B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7C8412-FB39-47B7-AED6-C8EC6131A9B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF7C8412-FB39-47B7-AED6-C8EC6131A9B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
