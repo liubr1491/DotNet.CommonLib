@@ -51,6 +51,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cache\CacheHelper.cs" />
+    <Compile Include="Cache\CacheType.cs" />
     <Compile Include="Captcha\Captcha.cs" />
     <Compile Include="DB\DBClientFactory.cs" />
     <Compile Include="DB\DBHelper.cs" />
