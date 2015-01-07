@@ -78,7 +78,9 @@
     <Compile Include="WinServices\ServiceStatus.cs" />
     <Compile Include="WinServices\WinServicesControl.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="MMF\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="WinServices\Tools\install.bat" />
   </ItemGroup>
