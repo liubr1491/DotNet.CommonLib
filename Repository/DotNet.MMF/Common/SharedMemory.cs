@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO.MemoryMappedFiles;
-using System.Linq;
-using System.Text;
+﻿using System.IO.MemoryMappedFiles;
 using System.Threading;
 
-namespace DotNet.CommonLib.MMF
+namespace DotNet.MMF.Common
 {
     public class SharedMemory<T> where T : struct
     {

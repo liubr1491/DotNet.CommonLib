@@ -47,7 +47,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DB\MySql.Data.dll" />
+    <Content Include="DataBase\MySql.Data.dll" />
     <Content Include="NOPI\ICSharpCode.SharpZipLib.dll" />
     <Content Include="NOPI\NPOI.dll" />
     <Content Include="NOPI\NPOI.OOXML.dll" />
