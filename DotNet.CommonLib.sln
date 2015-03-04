@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.CommonLib", "Common\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.CommonLib.UnitTest", "Test\DotNet.CommonLib.UnitTest\DotNet.CommonLib.UnitTest.csproj", "{D4852B6F-8159-4A14-966C-347932C8F84F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.DomainModel", "Common\DotNet.DomainModel\DotNet.DomainModel.csproj", "{DBD1C2B1-B6D9-4013-BD3D-660B656FD60B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,6 +62,10 @@ Global
 		{D4852B6F-8159-4A14-966C-347932C8F84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4852B6F-8159-4A14-966C-347932C8F84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4852B6F-8159-4A14-966C-347932C8F84F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBD1C2B1-B6D9-4013-BD3D-660B656FD60B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD1C2B1-B6D9-4013-BD3D-660B656FD60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD1C2B1-B6D9-4013-BD3D-660B656FD60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD1C2B1-B6D9-4013-BD3D-660B656FD60B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,6 +77,7 @@ Global
 		{6CDE86BF-6CA7-4002-8919-CB384AB5FB1B} = {5B0E66BB-60BC-42D1-AF89-697DD7FEE73C}
 		{DF42DEF3-F042-4312-B407-20994988A4B9} = {5B0E66BB-60BC-42D1-AF89-697DD7FEE73C}
 		{D4852B6F-8159-4A14-966C-347932C8F84F} = {E1355BC9-518F-4257-BEBE-DCF47E025294}
+		{DBD1C2B1-B6D9-4013-BD3D-660B656FD60B} = {5B0E66BB-60BC-42D1-AF89-697DD7FEE73C}
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = DotNet.CommonLib.vsmdi
